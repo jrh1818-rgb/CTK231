@@ -1,0 +1,38 @@
+#book{
+  transform-origin: 50% 50%;
+  animation: bob 3s ease-in-out infinite;
+}
+
+#cards{
+  transform-origin: 50% 50%;
+  animation: wiggle 2.2s ease-in-out infinite;
+}
+
+#search{
+  transform-origin: 50% 50%;
+  animation: sweep 4.5s ease-in-out infinite;
+}
+
+@keyframes bob{
+  0%,100%{ transform: translateY(0); }
+  50%{ transform: translateY(-8px); }
+}
+
+@keyframes wiggle{
+  0%,100%{ transform: translateX(0); }
+  50%{ transform: translateX(6px); }
+}
+
+@keyframes sweep{
+  0%{ transform: translate(-30px,-10px) rotate(-8deg); }
+  50%{ transform: translate(30px,10px) rotate(8deg); }
+  100%{ transform: translate(-30px,-10px) rotate(-8deg); }
+}
+
+.title{
+  color: rgb(224, 13, 13);
+  font-size: 48px;
+  margin: 0 0 12px 0;
+  text-align: center;
+  font-family: system-ui, Arial, sans-serif;
+}
