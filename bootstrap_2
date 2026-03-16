@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rhythm & Reel Creations</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+    .hero {
+      background-color: #212529;
+      color: white;
+      padding: 80px 0;
+    }
+    .section {
+      padding: 60px 0;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Rhythm &amp; Reel</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero text-center">
+    <div class="container">
+      <h1 class="display-4">Rhythm &amp; Reel Creations</h1>
+      <p class="lead">Drum lessons, video editing, and creative media for local clients.</p>
+      <a href="#services" class="btn btn-light mt-3">See Services</a>
+    </div>
+  </header>
+
+  <section id="about" class="section">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <h2>About</h2>
+          <p>Rhythm &amp; Reel Creations is a small creative brand focused on helping people with music and media. The goal is to offer drum instruction, performance-based content, and simple promotional video work for local musicians and businesses.</p>
+        </div>
+        <div class="col-md-6">
+          <div class="card shadow-sm">
+            <div class="card-body">
+              <h3 class="h5">What makes us experts?</h3>
+              <p class="mb-0">We offer 15+ years of experience in these disciplines.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="section bg-white">
+    <div class="container">
+      <h2 class="text-center mb-5">Services</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h3 class="h5">Drum Lessons</h3>
+              <p>Private lessons for beginners and intermediate players who want to improve rhythm, timing, and confidence.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h3 class="h5">Video Editing</h3>
+              <p>Simple and engaging edits for music clips, social media videos, and short promotional content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h3 class="h5">Event Media</h3>
+              <p>Photo and video coverage for performances, recitals, and community events that need a polished recap.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container text-center">
+      <h2>Contact</h2>
+      <p>If you are looking for drum lessons or creative media help, Rhythm &amp; Reel Creations is available for local projects and collaborations.</p>
+      <a href="mailto:hello@rhythmandreel.com" class="btn btn-dark">Email Us</a>
+    </div>
+  </section>
+
+  <footer class="bg-dark text-white text-center py-3">
+    <div class="container">
+      <p class="mb-0">&copy; 2026 Rhythm &amp; Reel Creations</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
